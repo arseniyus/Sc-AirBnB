@@ -4,6 +4,7 @@ html {
     font-size: 1em;
     line-height: 1.4;
     display: block;
+    -webkit-locale: auto;
 }
 *, *::before, *::after {
     margin: 0;
@@ -13,7 +14,7 @@ html {
       margin-left: 0px;
     box-sizing: border-box;
 }
-html[Attributes Style] {
+html Attributes Style {
     -webkit-locale: auto;
 }
 :root {
