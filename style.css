@@ -52,3 +52,15 @@ Pseudo ::selection element
         background-color: rgb(179, 212, 252);
         text-shadow: none;
 }
+    .header {
+        box-shadow: 0 4px 2px rgba(0 0 0/0.04);
+        display: block;
+    }
+head {
+    display: none;
+}
+body {
+    background-color: #f7f7f7;
+    display: block;
+    margin: 8px;
+}
