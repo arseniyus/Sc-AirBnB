@@ -1,11 +1,14 @@
 <!DOCTYPE HTML>
 <html class = "no js" lang="en">
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <link rel="stylesheet" href="style.css">
+    <meta name="description" content="">
   </head>
+
   <body>
     <header class="header">
       <div class="header_top">
@@ -13,37 +16,44 @@
         <label for="open" class="search_action">
           <input  id="open" class="search_action_radio" type="radio" name="search">
           <span class="search_action_icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="o o 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 20px; width: 20px; fill: currentcolor;">
-              <path d="M13 0a13 13 0 0 1 10.5 20.67l7.91 7.92-2.82 2.82-7.92-7.91A12.94 12.94 0 0 1 13 26a13 13 0 1 1 0-26zm0 4a9 9 0 1 0 0 18 9 9 0 0 0 0-18z"></path>
-           </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="o o 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 20px; width: 20px; fill: currentcolor;"><path d="M13 0a13 13 0 0 1 10.5 20.67l7.91 7.92-2.82 2.82-7.92-7.91A12.94 12.94 0 0 1 13 26a13 13 0 1 1 0-26zm0 4a9 9 0 1 0 0 18 9 9 0 0 0 0-18z"></path></svg>
           </span>
           <span class="search_action_text">
             <span>Anywhere</span>
             <span class="search_action_subtext">
               <span>Any week</span>
-              <span>.</span>
+              <span>•</span>
               <span>Add guests</span>  
           </span>
-        </span>
+         </span>
+
         <span class="modal">
           <span class="modal_header">
             <label for="close" class="modal_close">
-        </span>
+              <input class="modal_close_radio" id="close" type="radio" name="search">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; height: 12px; width: 12px; stroke: currentcolor; stroke-width: 5.33333; overflow: visible;"><path d="m6 6 20 20M26 6 6 26"></path></svg>
+            </label>
+          </span>
+
           <span class="modal_body">¯\_(ツ)_/¯
+         </span>
         </span>
-      <label>
+       </label>
+      </div>
+
       <button class="filter_action">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 4; overflow: visible;">
-         <path fill="none" d="M7 16H3m26 0H15M29 6h-4m-8 0H3m26 20h-4M7 16a4 4 0 1 0 8 0 4 4 0 0 0-8 0zM17 6a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm0 20a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm0 0H3"></path>
-        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 4; overflow: visible;"><path fill="none" d="M7 16H3m26 0H15M29 6h-4m-8 0H3m26 20h-4M7 16a4 4 0 1 0 8 0 4 4 0 0 0-8 0zM17 6a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm0 20a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm0 0H3"></path></svg>
       </button>
     </div>
+
     <div class="header_bottom">
       <div class="category_wrapper">
         <input id="spaceship" name="category" class="category_radio" type="radio" checked>
         <label for="spaceship" class="category">
-        <img class="category_imafe" src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" alt="spaceship">
+        <img class="category_image" src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" alt="spaceship">
+        <span>OMG!</span>
       </div>
+
       <div  class="category_wrapper">
         <input id="farm" name="category" class="category_radio" type="radio">
         <label for="farm" class="category">
@@ -51,6 +61,7 @@
           <span>Farms</span>
         </label>
       </div>
+
       <div  class="category_wrapper">
         <input id="mini" name="category" class="category_radio" type="radio">
         <label for="mini" class="category">
@@ -58,6 +69,7 @@
           <span>Mini-Houses</span>
         </label>
       </div>
+      
       <div  class="category_wrapper">
         <input id="island" name="category" class="category_radio" type="radio">
         <label for="island" class="category">
@@ -65,6 +77,7 @@
           <span>Islands</span>
         </label>
       </div>
+
       <div  class="category_wrapper">
         <input id="history" name="category" class="category_radio" type="radio">
         <label for="history" class="category">
@@ -72,6 +85,7 @@
           <span>Historical homes</span>
         </label>
       </div>
+
       <div  class="category_wrapper">
         <input id="ski" name="category" class="category_radio" type="radio">
         <label for="ski" class="category">
@@ -79,6 +93,7 @@
           <span>Skiing</span>
         </label>
       </div>
+
       <div  class="category_wrapper">
         <input id="tree" name="category" class="category_radio" type="radio">
         <label for="tree" class="category">
@@ -86,6 +101,7 @@
           <span>Treehouse</span>
         </label>
       </div>
+
       <div  class="category_wrapper">
         <input id="view" name="category" class="category_radio" type="radio">
         <label for="view" class="category">
@@ -93,6 +109,7 @@
           <span>Amazing views</span>
         </label>
       </div>
+
       <div  class="category_wrapper">
         <input id="park" name="category" class="category_radio" type="radio">
         <label for="park" class="category">
@@ -100,6 +117,7 @@
           <span>National Park</span>
         </label>
       </div>
+
       <div  class="category_wrapper">
         <input id="hut" name="category" class="category_radio" type="radio">
         <label for="hut" class="category">
@@ -107,6 +125,7 @@
           <span>Huts</span>
         </label>
       </div>
+
       <div  class="category_wrapper">
         <input id="beach" name="category" class="category_radio" type="radio">
         <label for="beach" class="category">
@@ -117,4 +136,5 @@
     </div>
     </header>
   </body>
+
 </html>
